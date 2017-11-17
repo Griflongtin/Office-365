@@ -51,8 +51,23 @@ body {
 .container {
   margin: 10px 10% 30px;
   background-color: #fffafa;
+  display: table;
 }
 
 .big-img-div .img img {
-  width: 45%;
+  width: 100%;
+}
+
+.big-img-div {
+  float: left;
+  width: 50%;
+}
+
+.text-div {
+  padding: 2vw;
+  float: right;
+  width: 50%;
+}
+.table {
+  clear: both;
 }
