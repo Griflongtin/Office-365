@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f8ff;
+}
+
+#head {
+  margin: 30px 10% 30px;
+  background-color: #fffafa;
+}
+
+.icon-float {
+  width: 100%;
+  padding: 10px;
+  display: table;
+}
+
+#ul-head {
+  float: right;
+}
+
+#button-head li {
+  text-transform: uppercase;
+  margin: 4px;
+  list-style-type: none;
+  float: right;
+}
+
+#button-head li a {
+  background-color: #dddddd;
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#button-head li a:hover {
+  background-color: #000000;
+  color: #24c712;
+  text-shadow: 2px 2px 2px #ff0000;
+}
+
+.icon-float img {
+  width: 22px;
+  float: left;
+}
