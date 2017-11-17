@@ -56,7 +56,7 @@ body {
 
 .big-img-div .img img {
   position: absolute;
-  width: 100%;
+  width: 670px;
 }
 
 .img {
@@ -121,6 +121,7 @@ body {
 
 .col-operating-system {
   border-right: 1px black inset;
+  display: inline;
 }
 
 .col-word {
