@@ -55,7 +55,40 @@ body {
 }
 
 .big-img-div .img img {
+  position: absolute;
   width: 100%;
+}
+
+.img {
+  position: relative;
+   z-index: 1;
+}
+
+.img p {
+  text-transform: uppercase;
+}
+
+.img p:nth-child(2){
+  position: absolute;
+  font-weight: 100px;
+  top: 4px;
+  left: 4px;
+}
+.img p:nth-child(3){
+  position: absolute;
+  font-weight: 100px;
+  top: 4px;
+  right: 4px;
+}
+.img p:nth-child(4){
+  position: absolute;
+  font-weight: 100px;
+  left: 4px;
+  bottom: 4px;
+}
+.img p:nth-child(5){
+  position: absolute;
+  font-weight: 100px;
 }
 
 .big-img-div {
@@ -68,6 +101,65 @@ body {
   float: right;
   width: 50%;
 }
-.table {
+
+.small-imgs-div img {
+  width: 100px;
+  float: left;
+  margin: 20px;
+}
+.small-imgs-div img:nth-child(5) {
   clear: both;
+}
+
+.table {
+  margin: 665px 0px 20px;
+  text-align: center;
+  clear: both;
+  border: 2px black inset;
+  border-radius: 20px;
+  width: 1330px;
+  display: table;
+}
+.row {
+  border-bottom: 2px black inset;
+  height: 30px;
+}
+
+#last {
+  border-bottom: none;
+}
+
+.col {
+  padding: 5px;
+  float: left;
+  width: 165px;;
+}
+
+.col-operating-system {
+  border-right: 1px black inset;
+}
+
+.col-word {
+  border-right: 1px black inset;
+}
+
+.col-excel {
+  border-right: 1px black inset;
+}
+
+.col-powerpoint {
+  border-right: 1px black inset;
+}
+
+.col-outlook {
+  border-right: 1px black inset;
+}
+
+.col-onenote {
+  border-right: 1px black inset;
+}
+.col-publisher {
+  border-right: 1px black inset;
+}
+.col-access {
 }
