@@ -148,3 +148,11 @@ body {
 }
 .col-access {
 }
+
+p span:nth-child(1){
+  display: block;
+}
+
+p {
+  display: inline;
+}
