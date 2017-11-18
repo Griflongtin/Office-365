@@ -124,30 +124,10 @@ body {
   display: inline;
 }
 
-.col-word {
+.col-word, .col-excel, .col-powerpoint, .col-outlook, .col-onenote,.col-publisher, .col-publisher {
   border-right: 1px black inset;
 }
 
-.col-excel {
-  border-right: 1px black inset;
-}
-
-.col-powerpoint {
-  border-right: 1px black inset;
-}
-
-.col-outlook {
-  border-right: 1px black inset;
-}
-
-.col-onenote {
-  border-right: 1px black inset;
-}
-.col-publisher {
-  border-right: 1px black inset;
-}
-.col-access {
-}
 
 p span:nth-child(1){
   display: block;
