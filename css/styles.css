@@ -86,6 +86,15 @@ body {
   width: 50%;
 }
 
+.text-div p:first-of-type::before {
+  content: "office 365 info";
+  display: block;
+  text-align: center;
+  text-shadow: 2px 2px 2px red;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
 .small-imgs-div img {
   width: 100px;
   float: left;
